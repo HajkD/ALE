@@ -56,12 +56,12 @@ between de novo predicted LTRs from [Pfam](http://pfam.xfam.org):
 
 ## Running `LTRpred`
 
-### Generating _de novo_ LTR retrotransposon annotation for `Arabidopsis thaliana`
-
 The following code can be run on a computer with 4 cores. Please be aware that 
 computation times might correspond to days due to the genome sizes of the respective species.
 
 For further details about `LTRpred` please consult the [LTRpred: Introduction Vignette](https://hajkd.github.io/LTRpred/articles/Introduction.html).
+
+### Generating _de novo_ LTR retrotransposon annotation for `Arabidopsis thaliana`
 
 ```r
 library(LTRpred)
