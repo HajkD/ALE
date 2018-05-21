@@ -59,12 +59,14 @@ between de novo predicted LTRs from [Pfam](http://pfam.xfam.org):
 ### Generating _de novo_ LTR retrotransposon annotation for `Arabidopsis thaliana`
 
 ```r
+library(LTRpred)
+# de novo LTR transposon prediction of 'A. thaliana'
+LTRpred(
+      genome.file = "genomes/Athaliana.fa",
       annotate    = NULL,
-      Dfam.db     = "../Dfam/",
       cluster     = TRUE,
-      cores       = 24,
+      cores       = 4,
       copy.number.est = FALSE,
-      hmms        = "../HMMs/hmm_*",
       minlenltr   = 100,
       maxlenltr   = 5000,
       mindistltr  = 4000,
