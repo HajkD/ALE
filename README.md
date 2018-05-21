@@ -154,12 +154,22 @@ Osativa_LTRpred <- read.ltrpred("Osativa_ltrpred/Osativa_LTRpred_DataSheet.tsv")
 ### References
 
 Edgar,R.C. (2010) Search and clustering orders of magnitude faster than BLAST. Bioinformatics, 26, 2460–2461.
-Ellinghaus,D. et al. (2008) LTRharvest, an efficient and flexible software for de novo detection of LTR retrotransposons. BMC Bioinformatics, 9, 18.
+
+Ellinghaus,D. et al. (2008) LTRharvest, an efficient and flexible software for de novo detection of LTR retrotransposons. BMC 
+Bioinformatics, 9, 18.
+
 Finn,R.D. et al. (2011) HMMER web server: interactive sequence similarity searching. Nucleic Acids Res., 39, W29–W37.
+
 Gremme,G. et al. (2013) GenomeTools: A Comprehensive Software Library for Efficient Processing of Structured Genome Annotations. IEEE/ACM Trans. Comput. Biol. Bioinforma., 10, 645–656.
+
 Hubley,R. et al. (2016) The Dfam database of repetitive DNA families. Nucleic Acids Res., 44, D81–D89.
+
 Lawrence,M. et al. (2013) Software for Computing and Annotating Genomic Ranges. PLoS Comput. Biol., 9, 1–10.
+
 Rognes,T. et al. (2016) VSEARCH: a versatile open source tool for metagenomics. PeerJ, 4, e2584.
+
 Steinbiss,S. et al. (2009) Fine-grained annotation and classification of de novo predicted LTR retrotransposons. Nucleic Acids Res., 37, 7002–7013.
+
 Wickham,H. (2009) ggplot2 Springer New York, New York, NY.
+
 Wickham,H. (2014) Tidy Data. J. Stat. Softw., 59, 1–23.
