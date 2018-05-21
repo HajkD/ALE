@@ -68,7 +68,6 @@ library(LTRpred)
 # de novo LTR transposon prediction of 'A. thaliana'
 LTRpred(
       genome.file = "Athaliana.fa",
-      annotate    = NULL,
       cluster     = TRUE,
       cores       = 4,
       copy.number.est = FALSE,
@@ -97,7 +96,6 @@ library(LTRpred)
 # de novo LTR transposon prediction of 'S. lycopersicum'
 LTRpred(
       genome.file = "Slycopersicum.fa",
-      annotate    = NULL,
       cluster     = TRUE,
       cores       = 4,
       copy.number.est = FALSE,
@@ -126,7 +124,6 @@ library(LTRpred)
 # de novo LTR transposon prediction of 'O. sativa'
 LTRpred(
       genome.file = "Osativa.fa",
-      annotate    = NULL,
       cluster     = TRUE,
       cores       = 4,
       copy.number.est = FALSE,
