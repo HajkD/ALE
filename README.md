@@ -58,11 +58,16 @@ between de novo predicted LTRs from [Pfam](http://pfam.xfam.org):
 
 ### Generating _de novo_ LTR retrotransposon annotation for `Arabidopsis thaliana`
 
+The following code can be run on a computer with 4 cores. Please be aware that 
+computation times might correspond to days due to the genome sizes of the respective species.
+
+For further details about `LTRpred` please consult the [LTRpred: Introduction Vignette](https://hajkd.github.io/LTRpred/articles/Introduction.html).
+
 ```r
 library(LTRpred)
 # de novo LTR transposon prediction of 'A. thaliana'
 LTRpred(
-      genome.file = "genomes/Athaliana.fa",
+      genome.file = "Athaliana.fa",
       annotate    = NULL,
       cluster     = TRUE,
       cores       = 4,
@@ -84,3 +89,62 @@ LTRpred(
       n.orfs      = 0
       )
 ```
+
+### Generating _de novo_ LTR retrotransposon annotation for `Solanum lycopersicum`
+
+```r
+library(LTRpred)
+# de novo LTR transposon prediction of 'S. lycopersicum'
+LTRpred(
+      genome.file = "Slycopersicum.fa",
+      annotate    = NULL,
+      cluster     = TRUE,
+      cores       = 4,
+      copy.number.est = FALSE,
+      minlenltr   = 100,
+      maxlenltr   = 5000,
+      mindistltr  = 4000,
+      maxdistltr  = 30000,
+      mintsd      = 3,
+      maxtsd      = 20,
+      vic         = 80,
+      overlaps    = "no",
+      xdrop        = 7,
+      motifmis    = 1,
+      pbsradius   = 60,
+      pbsalilen   = c(8,40),
+      pbsoffset   = c(0,10),
+      quality.filter = TRUE,
+      n.orfs      = 0
+      )
+```
+
+### Generating _de novo_ LTR retrotransposon annotation for `Oryza sativa`
+
+```r
+library(LTRpred)
+# de novo LTR transposon prediction of 'O. sativa'
+LTRpred(
+      genome.file = "Osativa.fa",
+      annotate    = NULL,
+      cluster     = TRUE,
+      cores       = 4,
+      copy.number.est = FALSE,
+      minlenltr   = 100,
+      maxlenltr   = 5000,
+      mindistltr  = 4000,
+      maxdistltr  = 30000,
+      mintsd      = 3,
+      maxtsd      = 20,
+      vic         = 80,
+      overlaps    = "no",
+      xdrop        = 7,
+      motifmis    = 1,
+      pbsradius   = 60,
+      pbsalilen   = c(8,40),
+      pbsoffset   = c(0,10),
+      quality.filter = TRUE,
+      n.orfs      = 0
+      )
+```
+
